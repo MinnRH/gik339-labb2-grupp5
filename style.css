@@ -1,0 +1,29 @@
+form {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-style: double;
+  width: 75%;
+  padding: 5%;
+  border-radius: 3%;
+  background-color: beige;
+}
+form > * {
+}
+
+label {
+  grid-column: 1/2;
+}
+.textfield {
+  grid-column: 2/5;
+}
+.checkbox {
+  grid-column: 2/5;
+  place-items: left;
+}
+.button {
+  grid-column: 1/2;
+  margin-top: 1.5em;
+}
+.divBox {
+  grid-column: 1/2;
+}
